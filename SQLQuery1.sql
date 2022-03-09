@@ -104,3 +104,6 @@ join SQLPortefolio..covidvaccinations vac
 	on dea.date = vac.date
 	and dea.location = vac.location
 where dea.location = 'France'
+
+select *
+from francevaccination
